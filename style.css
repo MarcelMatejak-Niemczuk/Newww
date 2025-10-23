@@ -74,7 +74,7 @@ footer{
 .kolejna div{
     width: 120px;
     height: 120px;
-    background-image: url('tuff.jpg');
+    background-image: url('TUFF.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -106,4 +106,5 @@ footer{
 }
 #pos9{ 
     background-position: right bottom; 
+
 }
