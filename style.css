@@ -1,0 +1,109 @@
+header{
+    display: grid;
+    background-color: aqua;
+    height: 100px;
+}
+
+main{
+    display: grid;
+    background-color: rgb(39, 39, 155);
+    color: white;
+    height: 300px;
+}
+
+footer{
+    display: grid;
+    background-color: cadetblue;
+    
+}
+
+.blok1 {
+    width: 300px;
+    height: 200px;
+    background-color: rgba(0, 128, 255, 0.5); 
+    color: #000; 
+}
+
+.blok2 {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 128, 255);
+    opacity: 0.5; 
+    color: #000;
+}
+
+.hero{
+    height: 200px;
+    background-image: url(MINSO.JPG);
+    background-repeat: no-repeat;
+    color: rgb(255, 0, 0);
+}
+
+#a{
+    background-image: url(zigma.jpg);
+    background-repeat: no-repeat;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#b{
+    background-image: url(zigma.jpg);
+    background-repeat: repeat-x;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#c{
+    background-image: url(zigma.jpg);
+    background-repeat: repeat;
+    height: 200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.kolejna{
+    display: grid; 
+    grid-template-columns: repeat(3, 120px); 
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 20px;
+  }
+
+.kolejna div{
+    width: 120px;
+    height: 120px;
+    background-image: url('tuff.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#pos1{ 
+    background-position: left top; 
+}
+#pos2{ 
+    background-position: center top; 
+}
+#pos3{ 
+    background-position: right top; 
+}
+#pos4{ 
+    background-position: left center; 
+}
+#pos5{ 
+    background-position: center center; 
+}
+#pos6{ 
+    background-position: right center; 
+}
+#pos7{ 
+    background-position: left bottom; 
+}
+#pos8{ 
+    background-position: center bottom; 
+}
+#pos9{ 
+    background-position: right bottom; 
+}
